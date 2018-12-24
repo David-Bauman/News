@@ -6,7 +6,7 @@ David Bauman, 2017 - 12 - 17
 
 note that the first time the program is run it will print out instructions
 for BeautifulSoup. Follow it by changing the code in NYT() and NPR(). i.e.
-BeautifulSoup(page.read(),"lxml"). The proper parser changes depending on your system
+BeautifulSoup(page.read(),"lxml"). The proper parser depends on your system
 """
 from helper import *
 from bs4 import BeautifulSoup
